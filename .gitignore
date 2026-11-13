@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+# scan output is personal usage data: never commit it
+*.json
+*.jsonl
+*.log
+.env
+.env.*
+.DS_Store
