@@ -2,6 +2,8 @@
 
 Read-only Python scripts that scan Claude Code session transcripts and report where the tokens went: by project, model, day, session and tool.
 
+**Plain-words write-up:** [Finding where my AI spending went](https://ryanwisth.github.io/token-scan.html)
+
 ## Why it exists
 
 Claude Code's usage meter shows a total, not a cause. When a week's usage runs out early, the useful questions are which projects, sessions and habits spent it: large tool results, screenshots that stay in context, side sessions that each pay a fresh startup cost, re-reading long handoff notes, cache rewrites after idle gaps. Claude Code already writes every API call's token usage into its local JSONL transcripts. These scripts aggregate that record so usage decisions can rest on numbers instead of guesses.
